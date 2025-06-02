@@ -1,0 +1,24 @@
+# backend/app/config.yaml
+
+# LLM model name for Ollama
+model_name: "phi4-mini"
+
+# Embedding model name
+embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+# Chunking params for doc ingestion
+chunk_size: 800
+chunk_overlap: 100
+
+# Retrieval params
+top_k_retrieval: 5
+rag_threshold: 1000  # tokens threshold to skip RAG if needed
+
+# Post-edit
+enable_post_edit: true
+
+# Evaluation
+evaluation_metrics:
+  - rouge1
+  - rouge2
+  - rougeL
