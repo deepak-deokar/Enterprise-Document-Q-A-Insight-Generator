@@ -1,4 +1,4 @@
-from langchain.document_loaders import PyPDFLoader, UnstructuredWordDocumentLoader, TextLoader
+from langchain_community.document_loaders import PyPDFLoader, UnstructuredWordDocumentLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from app.utils.vector_store import get_vector_store
 from app.utils.embedding_model import get_embedding_model

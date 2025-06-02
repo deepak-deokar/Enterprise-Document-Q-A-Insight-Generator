@@ -16,7 +16,7 @@ def retrieve_context(question: str, top_k: int = 5):
     question_embedding = embedding_model.encode([question])[0]
 
     # Search vector DB
-    results = vector_store.similarity_search_by_vector(question_embedding, top_k=top_k)
+    results = vector_store.similarity_search_by_vector(question_embedding, k=top_k)
 
     # Extract retrieved texts + metadata
     retrieved_texts = [doc.page_content for doc in results]
