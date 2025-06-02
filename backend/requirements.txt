@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+langchain
+langgraph
+langchain-core
+chromadb              # or faiss-cpu
+sentence-transformers
+ollama                # for LLM backend
+pydantic
+python-dotenv         # for env vars if needed
+PyPDF2
+python-docx
+unstructured
+markdown
+rouge-score           # for evaluation
+scikit-learn          # optional, for clustering / insights
