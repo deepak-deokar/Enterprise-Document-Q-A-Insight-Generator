@@ -71,7 +71,7 @@ docker-compose up --build
 [Final Answer + Sources]
 
 + Evaluation Agent → ROUGE scoring
-```markdown
+```
 
 ## 🧰 Key Technologies
 	•	LangGraph (multi-agent orchestration)
