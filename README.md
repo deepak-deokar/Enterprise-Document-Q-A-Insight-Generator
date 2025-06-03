@@ -52,11 +52,11 @@ docker-compose up --build
 ```
 
 ## 🚀 Usage
-1️⃣ Go to Upload tab → Upload your document.
-2️⃣ Ask questions → get answers with sources.
-3️⃣ Summarize document.
-4️⃣ Extract insights.
-5️⃣ Evaluate predictions vs reference summary.
+	1️⃣ Go to Upload tab → Upload your document.
+	2️⃣ Ask questions → get answers with sources.
+	3️⃣ Summarize document.
+	4️⃣ Extract insights.
+	5️⃣ Evaluate predictions vs reference summary.
 
 ## 🏗️ Architecture
 ```markdown
@@ -75,11 +75,11 @@ docker-compose up --build
 ```
 
 ## 🧰 Key Technologies
-•	LangGraph (multi-agent orchestration)
-•	LangChain Core
-•	Sentence Transformers (Embeddings)
-•	Chroma (Vector DB)
-•	phi4-mini / Ollama LLMs
+	•	LangGraph (multi-agent orchestration)
+	•	LangChain Core
+	•	Sentence Transformers (Embeddings)
+	•	Chroma (Vector DB)
+	•	phi4-mini / Ollama LLMs
 	•	ROUGE Score (Evaluation)
 	•	FastAPI (Backend API)
 	•	React + Bootstrap (Frontend UI)
