@@ -3,6 +3,7 @@ uvicorn[standard]
 langchain
 langgraph
 langchain-core
+langchain_community>=0.0.26
 chromadb              # or faiss-cpu
 sentence-transformers
 ollama                # for LLM backend
@@ -14,3 +15,4 @@ unstructured
 markdown
 rouge-score           # for evaluation
 scikit-learn          # optional, for clustering / insights
+python-multipart==0.0.9

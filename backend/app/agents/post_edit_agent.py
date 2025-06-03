@@ -9,7 +9,8 @@ def post_edit_answer(answer: str) -> str:
     print(f"[DEBUG] Post-editing answer...")
 
     prompt = f"""
-Polish the following AI-generated answer for clarity and professionalism.
+Polish the following AI-generated answer for clarity and professionalism. 
+Format them as a numbered list. Make those AI generated answers in human language.
 Do not add any new information.
 
 Answer:

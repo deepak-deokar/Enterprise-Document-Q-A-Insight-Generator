@@ -29,6 +29,8 @@ def summarize_document(doc_name: str) -> str:
 
     prompt = f"""
 Summarize the following document content in clear, concise language, suitable for business users.
+Put these Summary in key points like numbered formatting. 
+Summary should looks like bullet points not a paragraph. Summary Should be in human language.
 
 Content:
 {full_text}
