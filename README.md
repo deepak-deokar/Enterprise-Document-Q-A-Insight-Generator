@@ -51,11 +51,11 @@ docker-compose up --build
 ### •Backend → http://localhost:8000/docs
 
 ## 🚀 Usage
-1️⃣ Go to Upload tab → Upload your document
-2️⃣ Ask questions → get answers with sources
-3️⃣ Summarize document
-4️⃣ Extract insights
-5️⃣ Evaluate predictions vs reference summary
+	1️⃣ Go to Upload tab → Upload your document.
+	2️⃣ Ask questions → get answers with sources.
+	3️⃣ Summarize document.
+	4️⃣ Extract insights.
+	5️⃣ Evaluate predictions vs reference summary.
 
 ## 🏗️ Architecture
 ```markdown
@@ -85,12 +85,12 @@ docker-compose up --build
 	•	Docker + Docker Compose
 
 ## 🧭 Possible Improvements
-✅ Add User Auth & Multi-tenant support
-✅ Fine-tuning pipeline (LoRA / PEFT)
-✅ Hybrid RAG (Structured + Unstructured)
-✅ Multi-modal support (images, tables)
-✅ Advanced source highlighting
-✅ UI polish & dark mode
+	✅ Add User Auth & Multi-tenant support.
+	✅ Fine-tuning pipeline (LoRA / PEFT).
+	✅ Hybrid RAG (Structured + Unstructured).
+	✅ Multi-modal support (images, tables).
+	✅ Advanced source highlighting.
+	✅ UI polish & dark mode.
 
 ## 💬 Example Questions
 	•	“What skills does this candidate have?”
