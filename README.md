@@ -46,9 +46,10 @@ npm run dev
 ```bash
 # From project root
 docker-compose up --build
+
+• Frontend → http://localhost:3000
+• Backend → http://localhost:8000/docs
 ```
-### •Frontend → http://localhost:3000
-### •Backend → http://localhost:8000/docs
 
 ## 🚀 Usage
 	1️⃣ Go to Upload tab → Upload your document.
